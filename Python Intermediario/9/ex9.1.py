@@ -10,7 +10,7 @@ from random import randint
 def main():
     quant = int(input("Digite a quantidade de elementos: "))
     conjunto=set()
-    for i in range(quant):
+    for i in range(quant+1):
         conjunto.add(randint(1,50))
     print(conjunto)
 if __name__=="__main__":
